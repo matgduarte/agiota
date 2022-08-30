@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+}
+header img{
+    float: left;
+}
+ul{
+    text-align: center;
+}
+h1{
+    vertical-align:middle;
+    text-align: center;
+
+}
+#nome{
+    padding-top: 10px;
+}
+#nome2{
+    padding-top: 10px;
+    margin-bottom: 90px;
+}
+li, a, button{
+    font-weight: 500px;
+    font-size: 16px;
+    color: #ffea00;
+    text-decoration: none;
+    font-size: 18px;
+    list-style: none;
+    }
+header{
+    background-color: #313237;
+    padding-bottom: 5px;
+    height: 6vh;
+}
+header img{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 50px;
+}
+body{
+ background-color: #cfcfcf;
+    
+}
+main{
+   height: auto;
+}
+#bolo{
+    float: right;
+    height: auto;
+    margin-right: 0;
+    border-radius: 0;
+}
+section{
+    text-align: center;
+}
+section img{
+    height: 200px;
+    border-radius: 10px;
+}
+#sec2{
+    text-align: center;
+    display: inline;
+    float: none;
+}
+section p{
+    margin-top: 80px;
+    margin-left: 2%;
+    float: left;
+    font-size: 140%;
+    background-color:#ffea00;
+    border-radius: 10px;
+    padding: 5px;
+}
+#p2{
+    width: 96%;
+    text-align: center;
+    display: block;
+    float: none;
+}
+#f2{
+    margin-top: 238px;
+    float: left;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:7.1;
+    width: 100%;
+    color: #EAEAEA;
+    background-color: #24252A;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    }
+footer{
+    float: left;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:7.1;
+    width: 100%;
+    color: #EAEAEA;
+    background-color: #24252A;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    }
+    footer img{
+        height: 48px;
+    }
+    footer a{
+        float: left;
+    }
+    #f3{
+        position: fixed;
+        bottom: 0;
+    }
+    @media (min-width: 360px) and (max-width: 410px){
+        header{
+            background-color: #313237;
+            padding-bottom: 5px;
+            height: auto;
+        }
+        header img{
+            margin-top: 0.5%;
+            margin-left:0.5%;
+            width: 50px;
+        }
+        #bolo{
+            height: 575px;
+
+        }
+        #sec1{
+            text-align: center;
+        }
+        section p{
+            height: 100%;
+            margin-top: 20px;
+            float: left;
+            font-size: 140%;
+            background-color:#ffea00;
+            border-radius: 10px;
+            padding: 5px;
+            float: left;
+            width: auto;
+        }
+        
+        footer{
+            float: left;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height:58px;
+            width: 100%;
+            color: #EAEAEA;
+            background-color: #24252A;
+            padding-left: 3px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            text-align: center;
+            }
+        }
+@media (min-width: 410px) and (max-width: 768px){
+        header{
+                background-color: #313237;
+                padding-bottom: 5px;
+                height: auto;
+            }
+        header img{
+                margin-top: 0.5%;
+                margin-left:0.5%;
+                width: 50px;
+            }
+        #bolo{
+                height: 575px;
+    
+            }
+        #sec1{
+                text-align: center;
+            }
+        section p{
+                height: 100%;
+                margin-top: 58px;
+                float: left;
+                font-size: 140%;
+                background-color:#ffea00;
+                border-radius: 10px;
+                padding: 5px;
+                float: left;
+                width: auto;
+            }
+        footer{
+                float: left;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height:58px;
+                width: 100%;
+                color: #EAEAEA;
+                background-color: #24252A;
+                padding-left: 3px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                text-align: center;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 912px){
+            header{
+                    background-color: #313237;
+                    padding-bottom: 5px;
+                    height: auto;
+                }
+            header img{
+                    margin-top: 0.5%;
+                    margin-left:0.5%;
+                    width: 50px;
+                }
+            #bolo{
+                    height: 910px;
+        
+                }
+            #sec1{
+                    text-align: center;
+                }
+            section p{
+                    height: 100%;
+                    margin-top: 40px;
+                    float: left;
+                    font-size: 140%;
+                    background-color:#ffea00;
+                    border-radius: 10px;
+                    padding: 5px;
+                    float: left;
+                    width: auto;
+                }
+            footer{
+                    float: left;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height:58px;
+                    width: 100%;
+                    color: #EAEAEA;
+                    background-color: #24252A;
+                    padding-left: 3px;
+                    padding-top: 3px;
+                    padding-bottom: 3px;
+                    text-align: center;
+                }
+            }
+            @media (min-width: 912px) and (max-width: 914px){
+                header{
+                        background-color: #313237;
+                        padding-bottom: 5px;
+                        height: auto;
+                    }
+                header img{
+                        margin-top: 0.5%;
+                        margin-left:0.5%;
+                        width: 50px;
+                    }
+                #bolo{
+                        height: 1123px;
+            
+                    }
+                #sec1{
+                        text-align: center;
+                    }
+                section p{
+                        height: 100%;
+                        margin-top: 40px;
+                        float: left;
+                        font-size: 140%;
+                        background-color:#ffea00;
+                        border-radius: 10px;
+                        padding: 5px;
+                        float: right;
+                        width: auto;
+                    }
+                footer{
+                        float: left;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        height:58px;
+                        width: 100%;
+                        color: #EAEAEA;
+                        background-color: #24252A;
+                        padding-left: 3px;
+                        padding-top: 3px;
+                        padding-bottom: 3px;
+                        text-align: center;
+                    }
+                }
+                @media (min-width:1410px){
+                    header{
+                            background-color: #313237;
+                            padding-bottom: 5px;
+                            height: auto;
+                        }
+                    header img{
+                            margin-top: 0.5%;
+                            margin-left:0.5%;
+                            width: 50px;
+                        }
+                    #sec1{
+                            text-align: center;
+                        }
+                        section p{
+                            margin-top: 80px;
+                            margin-left: 2%;
+                            float: left;
+                            font-size: 140%;
+                            background-color:#ffea00;
+                            border-radius: 10px;
+                            padding: 5px;
+                            width: 58%;
+                        }
+                    footer{
+                            float: left;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            height:58px;
+                            width: 100%;
+                            color: #EAEAEA;
+                            background-color: #24252A;
+                            padding-left: 3px;
+                            padding-top: 3px;
+                            padding-bottom: 3px;
+                            text-align: center;
+                        }
+                    }
+                
